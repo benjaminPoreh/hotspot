@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:gravity="center|left"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/TVRediscover"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/orange"
+        android:ems="20"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/Rediscover"
+        android:textColor="@color/white"
+        android:textScaleX="1.05"
+        android:textSize="21sp" />
+
+    <RelativeLayout
+        android:id="@+id/option1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/option_type_1"
+            android:layout_width="230dp"
+            android:layout_height="80dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/blank_option_check" />
+
+        <ImageView
+            android:id="@+id/logo_1"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignLeft="@+id/option_type_1"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:scaleType="fitCenter" />
+
+        <TextView
+            android:id="@+id/company_name_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/logo_1"
+            android:layout_toRightOf="@+id/logo_1"
+            android:fontFamily="calabri"
+            android:text="Small Text"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/white"
+            android:textSize="6pt" />
+
+        <TextView
+            android:id="@+id/attire_a_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/logo_1"
+            android:text="@string/attire"
+            android:textColor="@color/white"
+            android:textSize="5pt" />
+
+        <TextView
+            android:id="@+id/attire_b_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/attire_a_1"
+            android:layout_alignBottom="@+id/attire_a_1"
+            android:layout_toRightOf="@+id/attire_a_1"
+            android:textColor="@color/white"
+            android:textSize="5pt" />
+
+        <TextView
+            android:id="@+id/price_a_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/attire_a_1"
+            android:layout_toRightOf="@+id/logo_1"
+            android:text="@string/price"
+            android:textColor="@color/white"
+            android:textSize="5pt" />
+
+        <TextView
+            android:id="@+id/price_b_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/attire_b_1"
+            android:layout_toRightOf="@+id/price_a_1"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/white"
+            android:textSize="5pt" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/option2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/option_type_2"
+            android:layout_width="230dp"
+            android:layout_height="80dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/blank_option_check" />
+
+        <ImageView
+            android:id="@+id/logo_2"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignLeft="@+id/option_type_2"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:scaleType="fitCenter" />
+
+        <TextView
+            android:id="@+id/company_name_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/logo_2"
+            android:layout_toRightOf="@+id/logo_2"
+            android:fontFamily="calabri"
+            android:text="Small Text"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/white"
+            android:textSize="6pt" />
+
+        <TextView
+            android:id="@+id/attire_a_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/logo_2"
+            android:text="@string/attire"
+            android:textColor="@color/white"
+            android:textSize="5pt" />
+
+        <TextView
+            android:id="@+id/attire_b_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/attire_a_2"
+            android:layout_alignBottom="@+id/attire_a_2"
+            android:layout_toRightOf="@+id/attire_a_2"
+            android:textColor="@color/white"
+            android:textSize="5pt" />
+
+        <TextView
+            android:id="@+id/price_a_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/attire_a_2"
+            android:layout_toRightOf="@+id/logo_2"
+            android:text="@string/price"
+            android:textColor="@color/white"
+            android:textSize="5pt" />
+
+        <TextView
+            android:id="@+id/price_b_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/attire_b_2"
+            android:layout_toRightOf="@+id/price_a_2"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/white"
+            android:textSize="5pt" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/option3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/option_type_3"
+            android:layout_width="230dp"
+            android:layout_height="80dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/blank_option_check" />
+
+        <ImageView
+            android:id="@+id/logo_3"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:scaleType="fitCenter" />
+
+        <TextView
+            android:id="@+id/company_name_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/logo_3"
+            android:layout_toRightOf="@+id/logo_3"
+            android:fontFamily="calabri"
+            android:text="Small Text"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/white"
+            android:textSize="6pt" />
+
+        <TextView
+            android:id="@+id/attire_a_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/logo_3"
+            android:text="@string/attire"
+            android:textColor="@color/white"
+            android:textSize="5pt" />
+
+        <TextView
+            android:id="@+id/attire_b_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/attire_a_3"
+            android:layout_alignBottom="@+id/attire_a_3"
+            android:layout_toRightOf="@+id/attire_a_3"
+            android:textColor="@color/white"
+            android:textSize="5pt" />
+
+        <TextView
+            android:id="@+id/price_a_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/attire_a_3"
+            android:layout_toRightOf="@+id/logo_3"
+            android:text="@string/price"
+            android:textColor="@color/white"
+            android:textSize="5pt" />
+
+        <TextView
+            android:id="@+id/price_b_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/attire_b_3"
+            android:layout_toRightOf="@+id/price_a_3"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/white"
+            android:textSize="5pt" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|right"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/touch_to_rand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:gravity="right"
+            android:text="@string/touch_to_rand"
+            android:textColor="@color/nice_gray"
+            android:textSize="10sp" />
+
+        <ImageButton
+            android:id="@+id/touch_to_start"
+            android:layout_width="190dp"
+            android:layout_height="73dp"
+            android:background="@color/white"
+            android:scaleType="fitCenter"
+            android:src="@drawable/find_button" />
+    </LinearLayout>
+
+</LinearLayout>

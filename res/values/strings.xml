@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">hotspot</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="get_started">Touch to get started</string>
+    <string name="slogan">Let us plan your night</string>
+    <string name="Rediscover">Rediscover your city.</string>
+    <string name="touch_to_rand">Touch Find\nto Randomize\n Results</string>
+    <string name="find">Find</string>
+    <string name="ad">ad</string>
+    <string name="attire">Attire:   </string>
+	<string name="price">Price:   </string>
+</resources>
