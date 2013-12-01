@@ -1,0 +1,3 @@
+meetup api_key: 1d6b6666dae185729545716e607b
+Key: bve6a5sg6tllb8itckm88j8vpd
+Secret: q1avr72ua38lvo8gtmvenolnib

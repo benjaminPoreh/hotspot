@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="bottom|center"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="366dp"
+        android:gravity="center" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/time_of_event"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@color/nice_green"
+                android:gravity="center"
+                android:text="@string/start_time"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/company_name"
+                android:layout_width="196dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@color/nice_green"
+                android:gravity="center"
+                android:text="@string/company_name"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/white"
+                android:textSize="10pt" />
+
+            <ImageButton
+                android:id="@+id/add_to_checklist"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@color/nice_green"
+                android:padding="9dip"
+                android:scaleType="centerInside"
+                android:src="@drawable/check" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/reviews"
+            android:layout_width="wrap_content"
+            android:layout_height="280dp"
+            android:paddingTop="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_weight="1"
+            android:scaleType="center"
+            android:src="@drawable/reviews" />
+
+        <ImageView
+            android:id="@+id/indie_company_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout1"
+            android:layout_marginLeft="92dp" />
+
+        <CheckedTextView
+            android:id="@+id/company_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/reviews"
+            android:layout_marginTop="18dp"
+            android:text="CheckedTextView"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:importantForAccessibility="noHideDescendants"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/history_button01"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_toLeftOf="@+id/touch_to_start"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:scaleType="fitCenter"
+            android:src="@drawable/history_button" />
+
+        <ImageButton
+            android:id="@+id/radius_button"
+            style="@android:style/Animation.Translucent"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="bottom"
+            android:layout_toRightOf="@+id/touch_to_start"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:scaleType="fitCenter"
+            android:src="@drawable/radius_button" />
+
+        <ImageButton
+            android:id="@+id/touch_to_start"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:scaleType="fitCenter"
+            android:src="@drawable/find_button" />
+    </RelativeLayout>
+
+</LinearLayout>

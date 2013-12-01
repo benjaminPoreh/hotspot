@@ -12,4 +12,11 @@
     <string name="ad">ad</string>
     <string name="attire">Attire:   </string>
 	<string name="price">Price:   </string>
+	<string name="small_text">Small Text</string>
+	<string name="company_name">Company Name</string>
+	<string name="start_time">time</string>
+	<string name="the_reviews">Reviews:</string>
+	<string name="pic_an_activity_to_search">Pic An Activity To Search</string>
+	<string name="search_ideas">Search Ideas</string>
+	<string name="rating">"Rating: "</string>
 </resources>
